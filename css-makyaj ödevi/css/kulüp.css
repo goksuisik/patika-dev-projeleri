@@ -1,0 +1,39 @@
+
+
+div img {
+    float: left;
+}
+
+body {
+    background-color: #E4E4D0;
+}
+
+h1,h2,h3,h5,h6 {
+    color: rgb(10, 72, 10);
+}
+
+p {
+    color: rgb(0, 9, 81);
+    text-align:left;
+}
+
+.clear {clear:both;}
+.left, .right {margin:0;padding:0;width:49%;}
+.left {float:left;}
+.right {float:right;}
+
+h4 {
+    color: black;
+    text-align: left;
+}
+
+.logo {
+    width: auto;
+    height: 250px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    float:unset ;
+}
+
+ 
