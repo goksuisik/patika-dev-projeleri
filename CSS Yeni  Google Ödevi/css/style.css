@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color:#5f6368 ;
+    font-size: 14px;
+
+}
+
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+}
+section header {
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+section header ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+section header ul li a button {
+    background-color: blue;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+section .main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .main .searchbox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+} 
+
+section .main .searchbox .search {
+    width: 100%;
+    padding: 8px;
+    border: solid #ccc ;
+    border-radius: 25px;
+}
+
+section .main .searchbox .icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex; /* yanyana olmasını sağladım */
+    padding: 10px 15px;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+section .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2
+}
+
+section .footer .alt {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .footer .alt ul {
+    display: flex;
+}
+
+section .footer .alt ul li {
+    list-style: none;
+    
+}
+section .footer .alt ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+}
+
